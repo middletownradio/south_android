@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.southernradio.fragments;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -25,11 +25,11 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import middletownmusic.org.midwestradio.R;
-import middletownmusic.org.midwestradio.audio.AudioService;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.network.HttpClient;
-import middletownmusic.org.midwestradio.network.Requests;
+import middletownmusic.org.southernradio.R;
+import middletownmusic.org.southernradio.audio.AudioService;
+import middletownmusic.org.southernradio.models.Station;
+import middletownmusic.org.southernradio.network.HttpClient;
+import middletownmusic.org.southernradio.network.Requests;
 
 public class RadioFragment extends Fragment{
 

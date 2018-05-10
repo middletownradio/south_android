@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio;
+package middletownmusic.org.southernradio;
 
 
 import android.content.Intent;
@@ -19,14 +19,14 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import java.util.ArrayList;
-import middletownmusic.org.midwestradio.fragments.AboutFragment;
-import middletownmusic.org.midwestradio.fragments.HelpFragment;
-import middletownmusic.org.midwestradio.fragments.LoadingFragment;
-import middletownmusic.org.midwestradio.fragments.RadioFragment;
-import middletownmusic.org.midwestradio.fragments.StationInfoFragment;
-import middletownmusic.org.midwestradio.fragments.StationListFragment;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.utils.DrawerUtils;
+import middletownmusic.org.southernradio.fragments.AboutFragment;
+import middletownmusic.org.southernradio.fragments.HelpFragment;
+import middletownmusic.org.southernradio.fragments.LoadingFragment;
+import middletownmusic.org.southernradio.fragments.RadioFragment;
+import middletownmusic.org.southernradio.fragments.StationInfoFragment;
+import middletownmusic.org.southernradio.fragments.StationListFragment;
+import middletownmusic.org.southernradio.models.Station;
+import middletownmusic.org.southernradio.utils.DrawerUtils;
 
 
 public class MainActivity extends AppCompatActivity implements DrawerUtils.DrawerItemClickListener {
@@ -170,11 +170,11 @@ public class MainActivity extends AppCompatActivity implements DrawerUtils.Drawe
                 startActivity(browserIntent);
                 break;
             case "Submit a Station":
-                Intent browserIntentSubmit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://willshare.com/cs495/MidwestRadioPlayer/frontend/#/submit"));
+                Intent browserIntentSubmit = new Intent(Intent.ACTION_VIEW, Uri.parse("http://willshare.com/cs495/SouthernRadioPlayer/frontend/#/submit"));
                 startActivity(browserIntentSubmit);
                 break;
             case "Report a Station":
-                Intent browserIntentReport = new Intent(Intent.ACTION_VIEW, Uri.parse("http://willshare.com/cs495/MidwestRadioPlayer/frontend/#/report"));
+                Intent browserIntentReport = new Intent(Intent.ACTION_VIEW, Uri.parse("http://willshare.com/cs495/SouthernRadioPlayer/frontend/#/report"));
                 startActivity(browserIntentReport);
                 break;
             case "About":

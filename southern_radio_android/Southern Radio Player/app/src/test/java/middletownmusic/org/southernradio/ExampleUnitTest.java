@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio;
+package middletownmusic.org.southernradio;
 
 import org.junit.Test;
 

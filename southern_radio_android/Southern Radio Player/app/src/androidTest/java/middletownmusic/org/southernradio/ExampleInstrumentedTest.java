@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio;
+package middletownmusic.org.southernradio;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

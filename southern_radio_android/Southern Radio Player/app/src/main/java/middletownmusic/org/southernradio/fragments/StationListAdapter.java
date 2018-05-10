@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.southernradio.fragments;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,9 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import java.util.ArrayList;
-import middletownmusic.org.midwestradio.R;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.utils.AdapterCallback;
+import middletownmusic.org.southernradio.R;
+import middletownmusic.org.southernradio.models.Station;
+import middletownmusic.org.southernradio.utils.AdapterCallback;
 
 public class StationListAdapter extends ArrayAdapter<Station>{
 

@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.southernradio.fragments;
 
 import android.support.v4.app.DialogFragment;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 
-import middletownmusic.org.midwestradio.R;
+import middletownmusic.org.southernradio.R;
 
 public class HelpFragment extends DialogFragment {
 

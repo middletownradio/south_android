@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.fragments;
+package middletownmusic.org.southernradio.fragments;
 
 
 import android.support.v4.app.ListFragment;
@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import middletownmusic.org.midwestradio.R;
-import middletownmusic.org.midwestradio.models.Station;
-import middletownmusic.org.midwestradio.utils.AdapterCallback;
+import middletownmusic.org.southernradio.R;
+import middletownmusic.org.southernradio.models.Station;
+import middletownmusic.org.southernradio.utils.AdapterCallback;
 
 public class StationListFragment extends ListFragment{
 

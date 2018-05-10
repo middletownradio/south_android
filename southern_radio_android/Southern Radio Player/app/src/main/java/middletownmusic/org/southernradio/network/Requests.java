@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.network;
+package middletownmusic.org.southernradio.network;
 
 import java.net.MalformedURLException;
 

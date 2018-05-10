@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.utils;
+package middletownmusic.org.southernradio.utils;
 
 
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import middletownmusic.org.midwestradio.R;
+import middletownmusic.org.southernradio.R;
 
 public class DrawerUtils {
 

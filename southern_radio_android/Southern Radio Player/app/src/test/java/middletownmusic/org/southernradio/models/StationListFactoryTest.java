@@ -1,4 +1,4 @@
-package middletownmusic.org.midwestradio.models;
+package middletownmusic.org.southernradio.models;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
